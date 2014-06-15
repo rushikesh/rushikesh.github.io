@@ -373,9 +373,13 @@ body {
     text-align: right;
 }
 
+.project .desc ul{
+    text-align: left;
+}
+
 .desc h1, .desc h2, .desc h3, .desc h4, .desc h5, .desc h6{
     margin:0px !important;
-    border-bottom: 1px dotted cyan;
+    border-bottom: 1px dashed darkcyan;
 }
 
 .desc p{
@@ -391,4 +395,12 @@ body {
     background: none !important;
     background-image: none !important;
     filter: progid:none !important; 
+}
+
+.modal-header {
+	border-bottom: 1px solid #000000;
+}
+
+.modal-footer {
+	border-top: 1px solid #000000;
 }

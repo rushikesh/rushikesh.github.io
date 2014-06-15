@@ -348,7 +348,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.carousel-inner > .item > img {
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
